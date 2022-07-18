@@ -83,13 +83,13 @@ a{
 {
  color: rgb(12, 168, 201);
  border: 1px solid;
- padding: 10px;
+    padding: 8.5px 10.14px;
  font-size: 13px;
 }
 .headers-top .topleft .divfind1 li i {
     color: rgb(12, 168, 201);
     border: 1px solid;
-    padding: 8px;
+    padding: 7.5px;
     font-size: 15px;
 }
 .headers-top .topleft .divfind1 {
@@ -221,7 +221,7 @@ a{
 }
 .logo .divlogo .option select
 {
-    margin: 0 26px;
+margin: 9px 26px 0 26px;
     outline: none;
     border: none;   
     font-weight: 500;
@@ -867,7 +867,7 @@ color: rgb(12, 168, 201);
 {
     width: 20%; 
     height: 100%;
-    margin-top: 14px;
+    margin-top: 12px;
 
 }
 .search2 button
