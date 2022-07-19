@@ -139,7 +139,7 @@ a{
 }
 .headers-mid
 {
-    height: 97px;
+    height: 99px;
 }
 
 /*=========================logo======================*/
@@ -218,14 +218,16 @@ a{
 {
  color: rgb(143, 143, 143);
  font-weight: 500;
+ letter-spacing: -0.4px;
 }
 .logo .divlogo .option select
 {
-margin: 9px 26px 0 26px;
+margin: 7px 42px 0 18px;
     outline: none;
     border: none;   
     font-weight: 500;
     color: rgb(143, 143, 143);
+    letter-spacing: -0.7px;
 }
 .logo .divlogo .search button
 {
@@ -631,12 +633,12 @@ letter-spacing: 0.6px;
 .taq 
 {
 width: 880px;
-margin-top: 5.5%;
+margin-top: 4.5%;
 
 }
 .taq a
 {
-    padding-bottom: 46px;
+    padding-bottom: 40px;
 }
 .taq img
 {
@@ -659,8 +661,10 @@ margin-top: 5.5%;
     -webkit-line-clamp: 2;
     /* number of lines to show */
     -webkit-box-orient: vertical;
-
-
+}
+.taq .cmt
+{
+    padding-top: 10px;
 }
 .taq .cmt h2:hover
 {
@@ -703,7 +707,7 @@ color: rgb(12, 168, 201);
 .slick-arrow1
 {
     position: absolute;
-    top: -11.3%;
+    top: -10%;
     transform: translateY(-50%);
     border: none;
     width: 50px;
@@ -751,9 +755,9 @@ color: rgb(12, 168, 201);
 }
 .newct .new1
 {
-   padding-top: 20px;
-   padding-right: 10px;
-   padding-left: 10px;
+   padding-top: 24px;
+   padding-right: 12px;
+   padding-left: 13px;
 
 }
 .newct .new1 h2
@@ -791,14 +795,16 @@ color: rgb(12, 168, 201);
     margin-left: 3px;
 }
 @media (min-width: 1366px) {
-
+.new .container {
+        width: 1170px;
+    }
 
     .taq {
         width: 1140px;
     }
     .container-1
     {
-        width: 1140px;
+        width: 1170px;
     }
 }
 @media (max-width: 1366px) {
@@ -818,7 +824,7 @@ color: rgb(12, 168, 201);
 .search2
 {
     color: white;
-    height: 398px;
+    height: 400px;
     background-color: rgb(34, 34, 34);
 
     
@@ -827,7 +833,7 @@ color: rgb(12, 168, 201);
 {
     font-size: 15px;
    text-align: center;
-   padding: 89px 0 48px 0;
+   padding: 92px 0 48px 0;
    line-height: 46px;
    letter-spacing: 1px;
 
@@ -842,7 +848,7 @@ color: rgb(12, 168, 201);
 .search2 .bt 
 {
     margin: auto;
-    height: 68px;
+    height: 70px;
     background-color: white;
     width: 40%;
     border-radius: 30px;
@@ -895,9 +901,31 @@ color: rgb(12, 168, 201);
 }
 .hang .img
 {
-    padding: 55px 0;
+    padding: 58px 0 52px 0;
     margin: auto;
 }
+@media (min-width: 1600px){
+    .hangimg :nth-child(1) {
+            margin: 0 15px;
+        }
+    
+        .hangimg :nth-child(2) {
+            margin-left: 62px;
+        }
+    
+        .hangimg :nth-child(3) {
+            margin-left: 54px;
+        }
+    
+        .hangimg :nth-child(4) {
+            margin-left: 45px;
+        }
+    
+        .hangimg :nth-child(5) {
+            margin-left: 41px;
+        }
+}
+
 /* ==================ft========== */
 .footer
 {
@@ -936,7 +964,7 @@ padding-left: 106px;
 }
 .footer .icon
 {
-        margin-top: 11px;
+        margin-top: 21px;
             font-size: 13px;
 }
 .footer h2
@@ -951,6 +979,10 @@ padding: 9px 0 19px 0;
     font-size: 13.6px;
     color: rgb(186, 186, 186);
 
+}
+.footer .c1 :nth-child(3)
+{
+    line-height: 9px;
 }
 .footer a :hover
 {

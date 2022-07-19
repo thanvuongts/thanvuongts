@@ -204,6 +204,11 @@
 {
     padding-bottom: 20px;
 }
+.hang .img {
+    padding: 20px 0;
+    margin: inherit;
+    width: 33%;
+}
 }
 
 /* ===============================mobile========================================= */

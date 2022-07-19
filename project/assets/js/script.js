@@ -19,8 +19,8 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.taq').slick(
         {
-            prevArrow:"<button type='button' class='slick-prev1 slick-arrow1'><i class='fa-solid fa-angle-left'></i></button>",
-            nextArrow:"<button type='button' class='slick-next1 slick-arrow1'><i class='fa-solid fa-angle-right'></i></button>",
+            prevArrow:"<button type='button' class='slick-prev1 slick-arrow1'><i class='fa fa-angle-left'></i></button>",
+            nextArrow:"<button type='button' class='slick-next1 slick-arrow1'><i class='fa fa-angle-right'></i></button>",
             slidesToShow: 4,
             rows: 2,
             slidesToScroll : 4,
